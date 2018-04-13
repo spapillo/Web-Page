@@ -20,6 +20,7 @@ body { background-color: lightblue;
 .h-1 { font-family: Courier, monospace;
 	font-size: 250%; /*text declaration for font size*/
 	text-align: center; /*centered*/
+	text-decoration: underline;
 }
 .h-3 { font-family: Courier, monospace;
 	font-size: 140%;
