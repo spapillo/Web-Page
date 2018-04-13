@@ -1,0 +1,31 @@
+/*
+* Sara Papillo
+* Date
+* Metadata practice - my cats are the best CSS
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+body { background-color: lightblue;
+		color: black;
+		font-family: times, serif, arial; /*body font family*/
+}
+.h-1 { font-family: Courier, monospace;
+	font-size: 250%; /*text declaration for font size*/
+	text-align: center; /*centered*/
+}
+.h-3 { font-family: Courier, monospace;
+	font-size: 140%;
+	text-align: center;
+}
+.bubbie{ float: right; /*image of Bubbie*/ 
+}
+.mindy-loki{ float: right; /*images of Mindy and Loki*/
+}
