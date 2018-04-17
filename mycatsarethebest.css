@@ -21,12 +21,17 @@ body { background-color: lightblue;
 	font-size: 250%; /*text declaration for font size*/
 	text-align: center; /*centered*/
 	text-decoration: underline;
+	background-color: papayawhip;
 }
 .h-3 { font-family: Courier, monospace;
 	font-size: 140%;
 	text-align: center;
+	background-color: papayawhip;
 }
 .bubbie{ float: right; /*image of Bubbie*/ 
 }
 .mindy-loki{ float: right; /*images of Mindy and Loki*/
+}
+p{ background-color: thistle;
+color:midnightblue;
 }
