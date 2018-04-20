@@ -1,0 +1,43 @@
+/* 
+*Sara Papillo
+*24 April 2018
+* Girl Develop It
+*/
+
+
+body { background-color: #ffcccc;
+		color: black;
+		font-family: arial;
+}/* color of body and main font*/
+
+.header{ background-color: rgb(255, 102, 105);
+} /* top logo section color*/
+
+h1 {font-family: Cursive; 
+	font-size: 225%;
+	font-weight: bold;
+}/*H1 font, etc*/
+
+h3 {font-family: cursive;
+	font-size: 160%;
+}/*H3 font, etc*/
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}/* this was hard, did not know how to center it so I looked it up :) */
+
+.imgs {float: right;
+		height: 200px;
+		width: 300px;
+} /* floating images to right of page*/
+
+a:hover, a:focus {color: Fuchsia;
+text-decoration: underline;
+font-size: 120%;
+}/*formating the links when mouse hovers over--> change color to pink and underlined, zooms*/
+
+footer{font-family: Times;
+} /* footer font*/
