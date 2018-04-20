@@ -16,10 +16,12 @@ body { background-color: #ffcccc;
 h1 {font-family: Cursive; 
 	font-size: 225%;
 	font-weight: bold;
+	text-decoration: underline;
 }/*H1 font, etc*/
 
 h3 {font-family: cursive;
 	font-size: 160%;
+	text-decoration: underline;
 }/*H3 font, etc*/
 
 .logo {
