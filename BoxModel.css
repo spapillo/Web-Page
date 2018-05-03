@@ -1,0 +1,44 @@
+/* 
+*Sara Papillo
+*1 May 2018
+* Box Model Practice
+*/
+
+*{ margin: 0;
+   padding: 0;
+}
+   
+body{ background-color: white;
+	  color: black;
+	  font-family: times;
+}
+
+h1{ font-size:200%;
+	font-weight:bold;
+	height: auto;
+	width: auto;
+	margin: 10px 20px 10px 20px;
+	padding: 10px 20px 10px 20px;
+	border: thin dashed black;
+}
+	
+p{ border: thin dashed black;
+	height: auto;
+	width: auto;
+	margin: 10px 20px 10px 20px;
+	padding: 10px 15px 10px 15px;
+}
+
+main{ border: 2pt solid black;
+	  height: auto;
+	  width: auto;
+	  margin: 20px 25px 20px 20px;
+	  padding: 20px 5px 5px 5px;
+}
+
+body{ border: dashed black;
+	  height: auto;
+	  width: auto;
+	  margin: 10px 15px 10px 15px;
+	  padding: 15px 30px 10px 15px;
+}
