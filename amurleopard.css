@@ -1,0 +1,124 @@
+/* 
+*Sara Papillo
+*10 May 2018
+*Endangered Species Project
+*/
+
+*{margin: 0;
+  padding: 0;
+  background-color: #fff2c3;
+}
+
+h1{text-align: center;/*main title with name of animal*/
+   margin:10px;
+   padding:4px;
+   color:#2a2820;
+   font-family: palatino, serif;
+   font-weight:bold;
+   font-size:300%;
+}
+.eyes{height:100px;/*title picture*/
+	  width:250px;
+	  margin:1px;
+	  padding:1px;
+	  border:dashed;
+}
+h2{margin:10px;/*main topic points*/
+   padding:4px;
+   color:#555141;
+   font-size:150%;
+   font-weight:bold;
+   text-decoration:underline;
+}
+
+.pic1{height:300px;
+	  width:200px;
+	  float:left;
+	  border: dotted 2pt #807962;
+	  margin:10px;
+	  padding:5px;
+}
+
+body{margin:10px;
+	 font-family: times, serif;
+	 color:#2a2820;
+}
+
+main{border-top: 4pt solid #555141;
+	 border-bottom: 4pt solid #555141;/*main information about animal and conservation with top and bottom lines*/
+	 padding:10px
+}
+
+p{font-size:120%;
+  margin:10px;
+  padding:3px;
+}
+/*images below*/
+.leopard{height:200px;
+		 width:300px;
+		 float: right;
+		 margin:10px;
+		 border: dotted 2pt #807962;
+		 padding:5px;
+}
+
+.profile{height:200px;
+		 width:300px;
+		 margin:10px;
+		 float: right;
+		 border: dotted 2pt #807962;
+		 padding:5px;
+}
+
+#amur-leopard{height:200px;
+		 width:350px;
+		 margin:40px;
+		 padding:5px;
+		 margin:0px;
+		 border: solid 3pt #d4caa3;
+		 padding:1px;
+}
+
+#baby{height:200px;
+		 width:330px;
+		 padding:5px;
+		 margin:0px;
+		 border: solid 3pt #d4caa3;
+		 padding:1px;
+}
+
+#amur{height:200px;
+		 width:300px;
+		 padding:5px;
+		 margin:0px;
+		 border: solid 3pt #d4caa3;
+		 padding:1px;
+}
+
+#fiesty{height:200px;
+		 width:280px;
+		 padding:5px;
+		 margin:0px;
+		 border: solid 3pt #d4caa3;
+		 padding:1px;
+}
+		 
+.map{height:200px;/*map of location of amur leopard*/
+		 width:300px;
+		 float: right;
+		 margin:10px;
+		 border: dotted 2pt #807962;
+		 padding:5px;
+}
+		 
+footer{font-family:times;/*disclaimer and sources*/
+	   font-style:italic;
+	   font-size: 90%;
+	   color:orangered;
+	   padding:10px;
+}
+	   
+.disclaim{text-align:right;
+}
+
+section{text-align:center;}/*line of photos*/
