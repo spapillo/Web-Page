@@ -1,0 +1,121 @@
+/* 
+*Sara Papillo
+*Ms. Schneider
+*Final Project- Ellen Swallow Richards
+*25 May 2018   
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: darkgray;
+    margin: 15px auto;
+    font-family: times;
+}/*body css--> fonts and background*/
+
+header{ text-align: center;
+		background-color: darkgray;
+		color: navy;
+		border-bottom: 2pt solid black; /* title and quote*/
+}
+
+h2 {
+    margin:.15px;
+    padding: 10px;
+	/* Code for the gradient */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.13, #529a48), color-stop(1, #27501c));
+	background: -webkit-linear-gradient(top, #529a48 13%, #27501c 100%);
+	background: -moz-linear-gradient(top, #529a48 13%, #27501c 100%);
+	background: -o-linear-gradient(top, #529a48 13%, #27501c 100%);
+	background: -ms-linear-gradient(top, #529a48 13%, #27501c 100%);
+	background: linear-gradient(to bottom, #529a48 13%, #27501c 100%);
+	color:white;
+	font-family:bookman;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+#sidebarA { /*facts and trivia */
+    width: 25%;
+    height: 800px;
+    float:left;
+    border-right: 2pt solid black;
+    background-color:lightgray;
+    text-align:center
+}
+
+.microscope{ height:180px; /*image 1*/
+			 width:220px;
+			 border: dashed 2pt black;
+			 margin: 10px;
+			 padding: 3px;
+}
+
+h4{ color:red;
+	text-decoration:underline;
+}
+
+main{ width: 49.6% ;
+      height:800px; /*biography*/
+      float: left;
+      background-color:lightgray;
+}
+
+.portrait{  float: left; /*image 2*/
+			height: 167px;
+			width: 130px;
+			border: dashed 2pt black;
+			margin:10px;
+			padding:3px;
+}
+
+.biographyp{ margin:15px; /*main paragraphs*/
+			 padding:5px;
+			 font-size:14pt;
+}
+
+#sidebarB { width: 25%;
+ 		    height: 800px;
+   		    float: right; /*accomplishments*/
+  			border-left: 2pt solid black;
+     	    background-color:lightgray;
+}
+
+.accomplishments{ font-size:14pt;
+				  text-align:center;
+				  margin:5px;
+				  padding:3px; /*side bar B text*/
+}
+
+footer { clear: both; /*disclaimer and sources*/
+   		 border-top: 2pt solid black;
+   		 Background-color:darkgray;
+   		 padding:5px;
+}
+
+.disclaim{text-align:right;
+		  color:white;
+		  margin:10px;
+		  font-style:italic;
+}
+
+.quote{ font-family: Cursive;
+		margin:10px;
+		padding: 5px;
+}
+
+.signature{height:100px; /*image 3*/
+		   width:300px;
+}
+
+.grad{height:250px; /*image 4*/
+	  width:200px;
+	  border: black 2pt dashed;
+	  padding:3px;
+	  margin:10px;
+	  float:right;
+}
